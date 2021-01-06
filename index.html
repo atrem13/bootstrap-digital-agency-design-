@@ -6,6 +6,11 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/asset/css/swiper.css">
+    
     <style>
         .bg-grey{
             background-color: grey;
@@ -23,7 +28,17 @@
         .bg-banner3{
             background-image: url('/asset/main banner/bg3.svg');
             background-size: cover ;
-            height: 1050px;
+            height: 1100px;
+        }
+        .bg-banner4{
+            background-image: url('/asset/main banner/bg4.svg');
+            background-size: cover ;
+            height: 1100px;
+        }
+        .bg-banner5{
+            background-image: url('/asset/main banner/bg5.svg');
+            background-size: cover ;
+            height: 1100px;
         }
         .text-navy{
             color: #222D50;
@@ -38,7 +53,7 @@
             color: #05BB75;
         }
         .green-gradient-background {
-            background-image: linear-gradient(325deg, rgb(63, 126, 63), rgb(116, 255, 162));
+            background-image: linear-gradient(325deg, rgb(56, 110, 56), rgb(103, 212, 140));
           }
         
     </style>
@@ -48,7 +63,7 @@
         <div class="container">
             <nav class="navbar navbar-expand navbar-dark pt-4">
                 <a class="navbar-brand fw-bolder text-dark" href="/">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-vinyl-fill" viewBox="0 0 16 20">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-vinyl-fill text-green" viewBox="0 0 16 20">
                         <path d="M8 6a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm0 3a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0z"/>
                     </svg>
@@ -274,5 +289,194 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-banner4 mb-5" >
+        <div class="container">
+            <div class="row align-items-center mb-3" style="padding-top: 14%;">
+                <div class="col-6">
+                    <h5 class="text-green">PROJECT</h5>
+                    <h1 class="text-navy"><span class="fw-bold">Our Project</span> <br> Galery.</h1>
+                </div>
+                <div class="col-6 text-end">
+                    <a href="" class="btn btn-sm btn-outline-success rounded-pill">
+                        More Details
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 13 19">
+                        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container h-50">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <img src="/asset//image/art galery/amith-nair-2SbqQPM0Krg-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/argan-yoga-nugroho-X0tRXnFNHEI-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/bady-abbas-5ov2G7JzphM-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/dave-hoefler-lsoogGC_5dg-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/jakob-owens-WnldIj7fdJo-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/jonathan-borba-3rS5Arw5rxQ-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/launde-morel-2d8wEEXnVPI-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/mat-reding-BKOmT3bz0Uk-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    <img src="/asset//image/art galery/thomas-kelley-JoH60FhTp50-unsplash.jpg" class="img-fluid swiper-slide" alt="">
+                    
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-banner5">
+        <div class="container">
+            <div class="row" style="padding-top: 20%;">
+                <div class="col-8 offset-2 text-center">
+                    <h5 class="text-green fw-bold">TESTIMONIAL</h5>
+                    <h1 class="text-navy fw-bold">Our Client Feedback</h1>
+                    <div class="">
+                        <div class="swiper-container2">
+                            <div class="swiper-wrapper ">
+                                <div class="card swiper-slide border-0 rounded-3">
+                                    <div class="card-body text-center my-3 mx-3">
+                                        <p class="h6 lh-lg text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea hic quas earum ex labore, consequuntur rerum, animi qui sapiente iste maxime provident tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea </p>
+                                        <p class="text-warning">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                        </p>
+                                        <p class="h4 text-navy fw-bold">Edward Erlic</p>
+                                        <p class="text-muted">Alchemist | Military</p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide border-0 rounded-3">
+                                    <div class="card-body text-center my-3 mx-3">
+                                        <p class="h6 lh-lg text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea hic quas earum ex labore, consequuntur rerum, animi qui sapiente iste maxime provident tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea </p>
+                                        <p class="text-warning">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            
+                                        </p>
+                                        <p class="h4 text-navy fw-bold">Alphonse Erlic</p>
+                                        <p class="text-muted">Alchemist | Military</p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide border-0 rounded-3">
+                                    <div class="card-body text-center my-3 mx-3">
+                                        <p class="h6 lh-lg text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea hic quas earum ex labore, consequuntur rerum, animi qui sapiente iste maxime provident tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea </p>
+                                        <p class="text-warning">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+    
+                                        </p>
+                                        <p class="h4 text-navy fw-bold">Roy Mustang</p>
+                                        <p class="text-muted">Alchemist | Military</p>
+                                    </div>
+                                </div>
+
+                                <div class="card swiper-slide border-0 rounded-3">
+                                    <div class="card-body text-center my-3 mx-3">
+                                        <p class="h6 lh-lg text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea hic quas earum ex labore, consequuntur rerum, animi qui sapiente iste maxime provident tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque placeat sint laudantium accusamus amet ea </p>
+                                        <p class="text-warning">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                            
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                            </svg>
+                                        </p>
+                                        <p class="h4 text-navy fw-bold">Scar</p>
+                                        <p class="text-muted">Alchemist | Military</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination2"></div>
+                            <!-- Add Arrows -->
+                            <!-- <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+        });
+
+        var swiper2 = new Swiper('.swiper-container2', {
+            spaceBetween: 30,
+            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination2',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next2',
+                prevEl: '.swiper-button-prev2',
+            },
+        });
+	</script>
 </body>
 </html>
