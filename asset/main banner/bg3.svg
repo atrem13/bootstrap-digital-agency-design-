@@ -1,0 +1,23 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="900">
+<rect width="1440" height="900" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="1440" height="900" fill="white"/>
+<path d="M0 0H1440V900H0V0Z" fill="#F6FAFC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M332 821L389 788L389 854L332 821V821Z" stroke="#05BB75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1011.66 613.986L1011.7 648.96L981.35 631.437L1011.66 613.986Z" stroke="#05BB75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M693 190.5L720 206L720 175L693 190.5V190.5Z" stroke="#05BB75"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M121 669L164 644L164 694L121 669V669Z" stroke="#05BB75"/>
+<rect x="106.122" y="363.327" width="41.4779" height="41.4779" transform="rotate(30 106.122 363.327)" stroke="#05BB75"/>
+<rect x="547.99" y="498.683" width="38.3896" height="38.3896" transform="rotate(30 547.99 498.683)" stroke="#05BB75"/>
+<rect x="1295.93" y="328.683" width="38.3896" height="38.3896" transform="rotate(60 1295.93 328.683)" stroke="#05BB75"/>
+<circle cx="66.5" cy="212.5" r="11" stroke="#05BB75"/>
+<circle cx="648.5" cy="342.5" r="17" stroke="#05BB75"/>
+<circle cx="648.5" cy="342.5" r="17" stroke="#05BB75"/>
+<circle cx="1231" cy="296" r="12.5" stroke="#05BB75"/>
+<circle cx="1154" cy="228" r="30.5" stroke="#05BB75"/>
+<circle cx="233" cy="153" r="19.5" stroke="#05BB75"/>
+<circle cx="1491" cy="467" r="300.5" stroke="#05BB75" stroke-opacity="0.1" stroke-width="73"/>
+</g>
+</svg>
