@@ -40,6 +40,16 @@
             background-size: cover ;
             height: 1100px;
         }
+        .bg-banner6{
+            background-image: url('/asset/main banner/bg4.svg');
+            background-size: cover ;
+            height: 900px;
+        }
+        .bg-banner7{
+            background-image: url('/asset/main banner/bg6.svg');
+            background-size: cover ;
+            height: 1050px;
+        }
         .text-navy{
             color: #222D50;
         }
@@ -444,15 +454,118 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-banner6 mb-5">
+        <div class="container">
+            <div class="row text-center" style="padding-top: 10%;">
+                <div class="col-8 offset-2 mb-3">
+                    <h5 class="text-green fw-bold">TEAM MEMBERS</h5>
+                    <h1 class="text-navy fw-bold">Meet Our Team</h1>
+                    <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt voluptates natus, tenetur blanditiis atque dolorem. earum fugiat autem eligendi soluta </p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="card mb-3">
+                        <img class="rounded card-img-top" src="/asset/image/team member/team1.svg" alt="">
+                    </div>
+                    <h4 class="text-navy">Mitchell Stark</h4>
+                    <p class="text-muted">Grapich Designer</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="card mb-3">
+                        <img class="rounded card-img-top" src="/asset/image/team member/team2.svg" alt="">
+                    </div>
+                    <h4 class="text-navy">Jessica Angelica</h4>
+                    <p class="text-muted">UIUX Designer</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="card mb-3">
+                        <img class="rounded card-img-top" src="/asset/image/team member/team4.svg" alt="">
+                    </div>
+                    <h4 class="text-navy">Erico Thompson</h4>
+                    <p class="text-muted">Videographer</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="card mb-3">
+                        <img class="rounded card-img-top" src="/asset/image/team member/team3.svg" alt="">
+                    </div>
+                    <h4 class="text-navy">Cindy Otwel</h4>
+                    <p class="text-muted">Marketing</p>
+                </div>
+                <div class="col-12 mt-5">
+                    <a href="" class="btn background-green text-white rounded-pill px-4">Join Us Now!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-banner7" >
+        <div class="container">
+            <div class="row" style="padding-top: 10%;">
+                <div class="col-8 text-center offset-2">
+                    <h5 class="text-green fw-bold">BLOG</h5>
+                    <h1 class="text-navy fw-bold">Our Latest News</h1>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui consequuntur eos repudiandae dolore consectetur, deserunt quos molestias</p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4">
+                    <div class="card bg-dark text-white position-relative border-0" >
+                      <img class="card-img img-fluid" src="/asset/image/blog/blog1.svg" alt=""">
+                      <div class="card-img-overlay">
+                          <div class="position-absolute bottom-0 mb-4">
+                              <img src="/asset/image/team member/team3.svg" style="height: 50px;" class="rounded-circle " alt="">
+                              <br>
+                              <small class="" style="font-size: 14px;">Date: 31 January 2021</small>
+                              <br>
+                              <h4 class="card-title ">Title Example for blog on website</h4>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card bg-dark text-white position-relative border-0" >
+                      <img class="card-img img-fluid" src="/asset/image/blog/blog3.svg" alt=""">
+                      <div class="card-img-overlay">
+                          <div class="position-absolute bottom-0 mb-4">
+                              <img src="/asset/image/team member/team1.svg" style="height: 50px;" class="rounded-circle " alt="">
+                              <br>
+                              <small class="" style="font-size: 14px;">Date: 31 January 2021</small>
+                              <br>
+                              <h4 class="card-title ">Title Example for blog on website</h4>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card bg-dark text-white position-relative border-0" >
+                      <img class="card-img img-fluid" src="/asset/image/blog/blog2.svg" alt=""">
+                      <div class="card-img-overlay">
+                          <div class="position-absolute bottom-0 mb-4">
+                              <img src="/asset/image/team member/team2.svg" style="height: 50px;" class="rounded-circle " alt="">
+                              <br>
+                              <small class="" style="font-size: 14px;">Date: 31 January 2021</small>
+                              <br>
+                              <h4 class="card-title ">Title Example for blog on website</h4>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
     <!-- Swiper JS -->
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-	<!-- Initialize Swiper -->
+    <!-- Initialize Swiper -->
 	<script>
+        
 		var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
+            slidesPerView: 5,
             spaceBetween: 30,
-            slidesPerGroup: 3,
+            slidesPerGroup: 5,
             loop: true,
             loopFillGroupWithBlank: true,
             pagination: {
@@ -477,6 +590,8 @@
                 prevEl: '.swiper-button-prev2',
             },
         });
+
+        
 	</script>
 </body>
 </html>
