@@ -4,12 +4,10 @@
 </mask>
 <g mask="url(#mask0)">
 <rect width="1440" height="900" fill="#F6FAFC"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M332 821L389 788L389 854L332 821V821Z" stroke="#05BB75"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M121 669L164 644L164 694L121 669V669Z" stroke="#05BB75"/>
 <rect x="106.122" y="363.327" width="41.4779" height="41.4779" transform="rotate(30 106.122 363.327)" stroke="#05BB75"/>
 <circle cx="66.5" cy="212.5" r="11" stroke="#05BB75"/>
 <circle cx="233" cy="153" r="19.5" stroke="#05BB75"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M1118.92 822L1061.92 789L1061.92 855L1118.92 822V822Z" stroke="#05BB75"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1329.92 670L1286.92 645L1286.92 695L1329.92 670V670Z" stroke="#05BB75"/>
 <rect x="-0.183013" y="0.683013" width="41.4779" height="41.4779" transform="matrix(-0.866025 0.5 0.5 0.866025 1344.3 363.827)" stroke="#05BB75"/>
 <circle r="11" transform="matrix(-1 0 0 1 1384.42 213.5)" stroke="#05BB75"/>
